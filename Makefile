@@ -59,7 +59,7 @@ include $(BD)/Colors
 
 FMP := ffmpeg -hide_banner -y -loglevel "error" -stats
 # FIGLET := figlet -t -f standard -f border -f gay -S
-FIGLET := figlet-toilet -t -k -f standard -F border -F gay
+FIGLET := figlet -t -k -f standard -F border -F gay
 
 DAT = [$(Gray)$(DT)$(NC)]
 BEGIN = $(Yellow)$(On_Blue)BEGIN$(NC) TARGET
